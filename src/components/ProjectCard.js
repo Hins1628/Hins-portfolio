@@ -41,12 +41,12 @@ export const ProjectCard = ({ title, description, sourcecodeUrl, imgUrl, related
           </button>
           <h4 className="title-spacing text-center">{title}</h4>
           <ul className="description-list">
-          <div className="proj-text">
+          <div className="proj-text ">
             {Array.isArray(description) ? description.map((desc, index) => (
               <li key={index}>{desc}</li>
             )) : <li>{description}</li>}
-            <span>{relatedskill}</span>
           </div>
+          <span className="relatedskill">{relatedskill.join(' ')}</span>
         </ul>
       </div>
     </Col>

@@ -27,7 +27,7 @@ export const Projects = () => {
     {
       title: "Portfolio Website",
       description: [ "The portfolio website showcases my experience and abilities, enabling companies to gain a comprehensive understanding of my experience and ability." ],
-      sourcecodeUrl: "https://github.com/Hins1628",
+      sourcecodeUrl: "https://github.com/Hins1628/Hins-portfolio",
       relatedskill: ["#React", "#CSS", "#JavaScript"],
       imgUrl: [portfolioImg1],
     },
@@ -80,7 +80,7 @@ export const Projects = () => {
       "Two Player can be battle in this game according to the Jungle game rule. ",
       "After player move the chess, the game will print the updated chessboard using the command line."],
       sourcecodeUrl: "",
-      relatedskill: ["#java", "#Maven", "#Junit"],
+      relatedskill: ["#Java", "#Maven", "#Junit"],
       imgUrl: [junglegameImg1, junglegameImg2], 
     },
     {
@@ -103,6 +103,7 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects Experience</h2>
                 <p>During my past development career, I have completed several related projects that enhanced my programming skills and cultivated my ability to meet user needs effectively.</p>
+                <p>If you are interested in the project, you can hover your mouse over the top of the project card to view more demonstration pictures. The GitHub button link to the source code of the project on my GitHub account.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

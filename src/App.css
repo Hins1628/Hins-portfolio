@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
-  line-height: normal;
+
   text-decoration: none;
 }
 
@@ -305,6 +305,82 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+/************ About Css ************/
+.technology-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px; /* adjust this value to increase or decrease the space above the container */
+}
+
+.technology-item {
+  width: 7rem; /* 28px, assuming 16px root font size */
+  height: 7rem; /* 28px, assuming 16px root font size */
+  display: flex; /* This will allow us to center the image within the item */
+  justify-content: center; /* This will center the image horizontally */
+  align-items: center; /* This will center the image vertically */
+  background: linear-gradient(90deg, rgba(76,105,135,1) 0%, rgba(13,29,54,1) 100%);
+  border-radius: 50%; /* this makes the div circular */
+  overflow: hidden; /* this ensures the image doesn't overflow the circular div */
+}
+
+/************ Work Css ************/
+.vertical-timeline-element-icon{
+  background:#ffffff;
+}
+
+.timeline-element-left .vertical-timeline-element-date {
+  width: 179px !important;
+}
+
+.vertical-timeline-element-content{
+  background: linear-gradient(90deg, rgba(76,105,135,1) 0%, rgba(13,29,54,1) 100%) !important;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.relative-div {
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.absolute-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 3px;
+}
+
+.clickable-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.source-code {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
 
 
 /************ Projects Css ************/
@@ -333,6 +409,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: left;
   width: 56%;
 }
+
+@media (max-width: 768px) {
+  .about p, .project p {
+    width: 80%
+  }
+}
+
 .about .nav.nav-pills, .work.nav.nav-pills, .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -395,6 +478,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-text {
   text-align: left;
+  line-height: 2 !important; 
 }
 
 .github-icon {
@@ -435,8 +519,9 @@ transition: 0.3s ease-in-out;
 filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
-.description-list li {
-  line-height: 2; /* Default line height for larger screens */
+.description-list {
+
+  padding-right: 20px;
 }
 
 @media (max-width: 768px) {
@@ -451,46 +536,32 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   }
 }
 
-
 .title-spacing {
   margin-top: 20px; /* Adjust as needed */
 }
 
-/************ About Css ************/
-.technology-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  gap: 100px;
-  margin-top: 50px; /* adjust this value to increase or decrease the space above the container */
+.relatedskill {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-style: italic;
+  color: #B8B8B8;
 }
 
-.technology-item {
-  width: 7rem; /* 28px, assuming 16px root font size */
-  height: 7rem; /* 28px, assuming 16px root font size */
-  display: flex; /* This will allow us to center the image within the item */
-  justify-content: center; /* This will center the image horizontally */
-  align-items: center; /* This will center the image vertically */
-  background: linear-gradient(90deg, rgba(76,105,135,1) 0%, rgba(13,29,54,1) 100%);
-  border-radius: 50%; /* this makes the div circular */
-  overflow: hidden; /* this ensures the image doesn't overflow the circular div */
-}
-
-/************ Projects Css ************/
 .contact {
   background: linear-gradient(90deg, rgba(76,105,135,1) 0%, rgba(13,29,54,1) 100%);
   padding: 60px 0 200px 0;
 }
+
 .contact img {
   width: 92%;
 }
+
 .contact h2 {
 	font-size: 45px;
 	font-weight: 700;
   margin-bottom: 30px;
 }
+
 .contact form input, .contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
@@ -504,19 +575,23 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
 }
+
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
 }
+
 .contact form input::placeholder, .contact form textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
+
 .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
   color: #121212;
   opacity: 0.8;
 }
+
 .contact form button {
   font-weight: 700;
   color: #000;
@@ -528,13 +603,16 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   position: relative;
   transition: 0.3s ease-in-out;
 }
+
 .contact form button span {
   z-index: 1;
   position: relative;
 }
+
 .contact form button:hover {
   color: #fff;
 }
+
 .contact form button::before {
   content: "";
   background: #121212;
@@ -546,22 +624,9 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   z-index: 0;
   transition: 0.3s ease-in-out;
 }
+
 .contact form button:hover::before {
   width: 100%;
-}
-
-/************ Work Css ************/
-.vertical-timeline-element-icon{
-  background:#ffffff;
-}
-.timeline-element-left .vertical-timeline-element-date {
-  width: 179px !important;
-}
-
-.vertical-timeline-element-content{
-  background: linear-gradient(90deg, rgba(76,105,135,1) 0%, rgba(13,29,54,1) 100%) !important;
-  text-align: left;
-  margin-top: 50px;
 }
 
 /************ Footer Css ************/
@@ -627,44 +692,3 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   }
 }
 
-/* Works.css */
-
-.relative-div {
-  position: relative;
-  width: 100%;
-  height: 230px;
-}
-
-.project-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 1rem;
-}
-
-.absolute-div {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: flex-end;
-  margin: 3px;
-}
-
-.clickable-div {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.source-code {
-  width: 50%;
-  height: 50%;
-  object-fit: contain;
-}
