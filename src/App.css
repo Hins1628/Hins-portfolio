@@ -312,20 +312,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  gap: 100px;
-  margin-top: 50px; /* adjust this value to increase or decrease the space above the container */
+  gap: 25px;
+  margin-left: 10%;  
+  margin-right: 10%;  
+  background: #2a2a2a;
+  padding: 2%;
+  border-radius: 30px;
 }
 
+
+
 .technology-item {
-  width: 7rem; /* 28px, assuming 16px root font size */
-  height: 7rem; /* 28px, assuming 16px root font size */
-  display: flex; /* This will allow us to center the image within the item */
-  justify-content: center; /* This will center the image horizontally */
-  align-items: center; /* This will center the image vertically */
-  background: linear-gradient(90deg, rgba(76,105,135,1) 0%, rgba(13,29,54,1) 100%);
-  border-radius: 50%; /* this makes the div circular */
-  overflow: hidden; /* this ensures the image doesn't overflow the circular div */
+  width: 7rem; 
+  height: rem; 
+  justify-content: center; 
+  align-items: center; 
 }
+
+
 
 /************ Work Css ************/
 .vertical-timeline-element-icon{
@@ -382,6 +386,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   object-fit: contain;
 }
 
+.top-spacing {
+  margin-top: 10px;
+}
 
 /************ Projects Css ************/
 .work {
@@ -406,7 +413,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
-  text-align: left;
+  text-align: center;
   width: 56%;
 }
 
@@ -526,18 +533,18 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 @media (max-width: 768px) {
   .description-list li {
-    line-height: 1.7; /* Smaller line height for screens up to 768px wide */
+    line-height: 1.7; 
   }
 }
 
 @media (max-width: 480px) {
   .description-list li {
-    line-height: 1.5; /* Even smaller line height for screens up to 480px wide */
+    line-height: 1.5; 
   }
 }
 
 .title-spacing {
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 .relatedskill {

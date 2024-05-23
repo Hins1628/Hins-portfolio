@@ -9,7 +9,7 @@ import 'animate.css';
 import "react-vertical-timeline-component/style.min.css";
 import CASWCMC from "../assets/img/Caswcmc_logo.png";
 import AVATech from "../assets/img/avatech_logo.png";
-import WANKEE from "../assets/img/WanKee_logo.png";
+
 
 
 
@@ -63,14 +63,6 @@ export const Experience = () => {
         "Develop a treasure hunt game for children with WebAR using three.js, JavaScript, CSS and html.",
       ],
     },
-    {
-      title: "Part Time - Sales",
-      company_name: "Wan Kee Group",
-      icon: WANKEE,
-      date: "Jan 2023 - May 2024",
-      points: [
-      ],
-    },
   ];
     return (
     <section className="work" id="work">
@@ -92,12 +84,14 @@ export const Experience = () => {
                     >
                       <div className="description-list">
                         <h3 className="vertical-timeline-element-title">{experience.title}</h3>
-                        <h4 className="vertical-timeline-element-subtitle">{experience.company_name}</h4>
-                        <ul>
-                          {experience.points.map((point, pointIndex) => (
-                            <li key={`point-${pointIndex}`}>{point}</li>
-                          ))}
-                        </ul>
+                        <div className="top-spacing">
+                          <h5 className="vertical-timeline-element-subtitle">{experience.company_name}</h5>
+                          <ul className="top-spacing">
+                            {experience.points.map((point, pointIndex) => (
+                              <li key={`point-${pointIndex}`}>{point}</li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>               
                     </VerticalTimelineElement>
                   ))}
