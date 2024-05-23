@@ -5,12 +5,16 @@ import typescript from "../assets/img/typescript.png";
 import html from "../assets/img/html.png";
 import css from "../assets/img/css.png";
 import reactjs from "../assets/img/reactjs.png";
+import angularjs from "../assets/img/angularjs.png";
 import nodejs from "../assets/img/nodejs.png";
+import threejs from "../assets/img/threejs.svg";
+import python from "../assets/img/python.png";
+import java from "../assets/img/java.png";
 import mongodb from "../assets/img/mongodb.png";
 import git from "../assets/img/git.png";
 import figma from "../assets/img/figma.png";
 import docker from "../assets/img/docker.png";
-import threejs from "../assets/img/threejs.svg";
+
 
 export const About = () => {
   const technologies = [
@@ -35,16 +39,28 @@ export const About = () => {
       icon: reactjs,
     },
     {
+      name: "Angular JS",
+      icon: angularjs,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "git",

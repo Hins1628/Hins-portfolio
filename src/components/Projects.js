@@ -28,7 +28,7 @@ export const Projects = () => {
       title: "Portfolio Website",
       description: [ "The portfolio website showcases my experience and abilities, enabling companies to gain a comprehensive understanding of my experience and ability." ],
       sourcecodeUrl: "https://github.com/Hins1628/Hins-portfolio",
-      relatedskill: ["#React", "#CSS", "#JavaScript"],
+      relatedskill: ["#ReactJS", "#CSS", "#JavaScript"],
       imgUrl: [portfolioImg1],
     },
     {
