@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hins-portfolio/static/css/main.49b6503f.css",
-    "main.js": "/Hins-portfolio/static/js/main.0a1657b1.js",
+    "main.css": "/Hins-portfolio/static/css/main.6869432a.css",
+    "main.js": "/Hins-portfolio/static/js/main.1511b0e0.js",
     "static/js/453.48bd28c8.chunk.js": "/Hins-portfolio/static/js/453.48bd28c8.chunk.js",
     "static/media/bannerbg.jpg": "/Hins-portfolio/static/media/bannerbg.ee50e35ef13347bdf6cf.jpg",
     "static/media/portfolio-img1.png": "/Hins-portfolio/static/media/portfolio-img1.f35e29d863af4bf3f6fc.png",
@@ -31,16 +31,15 @@
     "static/media/appointment-organizer-img2.png": "/Hins-portfolio/static/media/appointment-organizer-img2.d4ca3f0793091c24f2e2.png",
     "static/media/virtual-classroom-img3.png": "/Hins-portfolio/static/media/virtual-classroom-img3.197a79bf069741105ee8.png",
     "static/media/github.png": "/Hins-portfolio/static/media/github.ed1c06d925fff0b57e32.png",
-    "static/media/logo.svg": "/Hins-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Hins-portfolio/index.html",
     "static/media/threejs.svg": "/Hins-portfolio/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
     "static/media/nav-icon1.svg": "/Hins-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.49b6503f.css.map": "/Hins-portfolio/static/css/main.49b6503f.css.map",
-    "main.0a1657b1.js.map": "/Hins-portfolio/static/js/main.0a1657b1.js.map",
+    "main.6869432a.css.map": "/Hins-portfolio/static/css/main.6869432a.css.map",
+    "main.1511b0e0.js.map": "/Hins-portfolio/static/js/main.1511b0e0.js.map",
     "453.48bd28c8.chunk.js.map": "/Hins-portfolio/static/js/453.48bd28c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49b6503f.css",
-    "static/js/main.0a1657b1.js"
+    "static/css/main.6869432a.css",
+    "static/js/main.1511b0e0.js"
   ]
 }
