@@ -190,13 +190,9 @@ nav.navbar .button {
 
 @media (max-width: 768px){
   nav.navbar .button {
-    padding: .5rem 40.5% .5rem 40.5%;
+    padding: .5rem;
     margin-left: 0px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid  rgb(55 65 81);
-    border-radius: 0%;
+    border: none;
     font-weight: normal;
     white-space: nowrap;
   }
