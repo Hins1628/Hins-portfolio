@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap"
-import logo from '../assets/img/icon2.png';
-import navIcon1 from '../assets/img/linkedin.svg';
+import logo from '../assets/img/icon.png';
 
 export const NavBar = () => {
 const [activeLink, setActiveLink] = useState('home');
@@ -42,15 +41,17 @@ useEffect(() => {
           </Nav>
           <span className="navbar-text">
             <div className={isCollapsed ? "d-flex flex-column" : ""}>
-              <div className="social-icon">
-                <div>
-                  <a href="https://www.linkedin.com/in/yu-hin-lam-b88a02233/"><img src={navIcon1} alt="" /></a>
-                </div>
-              </div>
-              <button className="button" onClick={() => window.location.href="https://wa.me/qr/R24SAHJBBMY6O1"}><span>Contact Me</span></button>
             </div>
           </span>
-          
+          <button 
+            className={`button ${activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'}`} 
+            onClick={() => {
+              onUpdateActiveLink('footer');
+              window.location = '#footer';
+            }}
+          >
+            <span>Contact Me</span>
+          </button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
