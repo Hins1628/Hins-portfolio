@@ -1,6 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import portfolioImg1 from "../assets/img/portfolio-img1.png";
+import driverbehaviourImg1 from "../assets/img/driver-behavior-analysis-img1.png";
+import driverbehaviourImg2 from "../assets/img/driver-behavior-analysis-img2.png";
+import driverbehaviourImg3 from "../assets/img/driver-behavior-analysis-img3.png";
 import collaborativeprojectImg1 from "../assets/img/collaborative-project-tracker-img1.png";
 import collaborativeprojectImg2 from "../assets/img/collaborative-project-tracker-img2.png";
 import collaborativeprojectImg3 from "../assets/img/collaborative-project-tracker-img3.png";
@@ -26,13 +29,26 @@ export const Projects = () => {
   const projects = [
     {
       title: "Portfolio Website",
-      description: [ "The portfolio website showcases my experience and abilities, enabling companies to gain a comprehensive understanding of my experience and ability." ],
+      description: [ "The portfolio website showcases my experience and abilities, enabling companies to gain a comprehensive understanding of my experience and ability.",
+      "The website is designed to be responsive and user-friendly, providing a seamless browsing experience on all devices.",
+      "The website a focus on clean, modern design and intuitive navigation."
+       ],
       sourcecodeUrl: "https://github.com/Hins1628/Hins-portfolio",
       relatedskill: ["#ReactJS", "#CSS", "#JavaScript"],
       imgUrl: [portfolioImg1],
     },
     {
-      title: "GitHub Collaborative Project Tracker web application",
+      title: "AWS Driver Behavior Analysis Application",
+      description: [ "As a part of intelligent transportation system, this application going to identify dangerous driving scenarios to avoid traffic accidents.",
+      "Generate a summary to show the driving behavior of each driver.",
+      "Monitor the driving speed of each driver in real time.",
+      ],
+      sourcecodeUrl: "",
+      relatedskill: ["#AWS", "#Pyspark", "#ELastic Beanstalk", "#EC2", "#RDS-MySQL Server"],
+      imgUrl: [driverbehaviourImg1, driverbehaviourImg2, driverbehaviourImg3],
+    },
+    {
+      title: "GitHub Collaborative Project Tracker",
       description: [ "The tracker can help the instructor to track the progress of different groups in the course and the collaboration among the group members.",
       "This tracker used GenAI technology (Open Router API) to analyze and summarize the collected project data. And generate summary and useful information about each group from list of commits and issues",
       ],
