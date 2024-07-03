@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hins-portfolio/static/css/main.a4510313.css",
-    "main.js": "/Hins-portfolio/static/js/main.787c3d8c.js",
+    "main.css": "/Hins-portfolio/static/css/main.4a877033.css",
+    "main.js": "/Hins-portfolio/static/js/main.c3278ec3.js",
     "static/js/453.e7e9390e.chunk.js": "/Hins-portfolio/static/js/453.e7e9390e.chunk.js",
     "static/media/bannerbg.jpg": "/Hins-portfolio/static/media/bannerbg.ee50e35ef13347bdf6cf.jpg",
     "static/media/portfolio-img1.png": "/Hins-portfolio/static/media/portfolio-img1.77c104fd740f30b9e501.png",
@@ -29,21 +29,22 @@
     "static/media/CentraNo2-Medium.ttf": "/Hins-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/Hins-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/java.png": "/Hins-portfolio/static/media/java.2a1399f78477e0e27b8e.png",
-    "static/media/avatech_logo.png": "/Hins-portfolio/static/media/avatech_logo.80fad0c7ffa8661e9610.png",
     "static/media/appointment-organizer-img1.png": "/Hins-portfolio/static/media/appointment-organizer-img1.62a5140ffb1cfa03bf9f.png",
     "static/media/appointment-organizer-img3.png": "/Hins-portfolio/static/media/appointment-organizer-img3.4d359cfd4ea6c9316616.png",
     "static/media/appointment-organizer-img2.png": "/Hins-portfolio/static/media/appointment-organizer-img2.d4ca3f0793091c24f2e2.png",
     "static/media/virtual-classroom-img3.png": "/Hins-portfolio/static/media/virtual-classroom-img3.197a79bf069741105ee8.png",
+    "static/media/career_hackers_logo.png": "/Hins-portfolio/static/media/career_hackers_logo.ea08043f81e6c431eddb.png",
     "static/media/angularjs.png": "/Hins-portfolio/static/media/angularjs.e7e7f1d4f7831f355779.png",
+    "static/media/avatech_logo.png": "/Hins-portfolio/static/media/avatech_logo.582aac2ee9e3b99a1f10.png",
     "static/media/github.png": "/Hins-portfolio/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/Hins-portfolio/index.html",
-    "static/media/threejs.svg": "/Hins-portfolio/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
-    "main.a4510313.css.map": "/Hins-portfolio/static/css/main.a4510313.css.map",
-    "main.787c3d8c.js.map": "/Hins-portfolio/static/js/main.787c3d8c.js.map",
+    "static/media/threejs.svg": "/Hins-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
+    "main.4a877033.css.map": "/Hins-portfolio/static/css/main.4a877033.css.map",
+    "main.c3278ec3.js.map": "/Hins-portfolio/static/js/main.c3278ec3.js.map",
     "453.e7e9390e.chunk.js.map": "/Hins-portfolio/static/js/453.e7e9390e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4510313.css",
-    "static/js/main.787c3d8c.js"
+    "static/css/main.4a877033.css",
+    "static/js/main.c3278ec3.js"
   ]
 }
