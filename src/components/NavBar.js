@@ -26,14 +26,14 @@ useEffect(() => {
     
     return (
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
-      <Container>
+      <Container className={scrolled ? "container-scrolled": ""}>
         <Navbar.Brand href="#home">
             <img src={logo} alt="Portfolio" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setIsCollapsed(!isCollapsed)}>
             <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="navbar-collapse">
           <Nav className="me-auto">
             <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link': 'navbar-link'} onClick={() =>onUpdateActiveLink('home')}>About</Nav.Link>
             <Nav.Link href="#work" className={activeLink === 'work' ? 'active navbar-link': 'navbar-link'} onClick={() =>onUpdateActiveLink('skills')}>Work</Nav.Link>

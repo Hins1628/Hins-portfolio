@@ -9,6 +9,7 @@ import 'animate.css';
 import "react-vertical-timeline-component/style.min.css";
 import CASWCMC from "../assets/img/Caswcmc_logo.png";
 import AVATech from "../assets/img/avatech_logo.png";
+import CareerHackers from "../assets/img/career_hackers_logo.png";
 
 
 
@@ -61,6 +62,17 @@ export const Experience = () => {
       points: [
         "Research and analysis of the current WebAR Library.",
         "Develop a treasure hunt game for children with WebAR using three.js, JavaScript, CSS and html.",
+      ],
+    },
+    {
+      title: "Internship - Software Engineer",
+      company_name: "Career Hackers | Speakmanity Limited",
+      icon: CareerHackers,
+      date: "June 2024 - Present",
+      points: [
+        "Develop a 3D metaverse world using three.js",
+        "Contributing to both frontend and backend platform using React, three.js, Node.js, MongoDB.",
+        "Acquired experience in using Git for version control and following agile development methodologies.",
       ],
     },
   ];

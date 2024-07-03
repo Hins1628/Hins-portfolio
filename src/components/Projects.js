@@ -25,7 +25,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-
+  
   const projects = [
     {
       title: "Portfolio Website",
@@ -109,6 +109,8 @@ export const Projects = () => {
       imgUrl: [webargameImg1, webargameImg2],
     },
   ];
+  
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -119,7 +121,7 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects Experience</h2>
                 <p>During my past development career, I have completed several related projects that enhanced my programming skills and cultivated my ability to meet user needs effectively.</p>
-                <p>If you are interested in the project, you can hover your mouse over the top of the project card to view more demonstration pictures. The GitHub button link to the source code of the project on my GitHub account.</p>
+                <p>If you are interested in the project, you can click the project card to know more. The GitHub button link to the source code of the project on my GitHub account.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

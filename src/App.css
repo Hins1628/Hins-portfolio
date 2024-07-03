@@ -87,10 +87,27 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
+  height: 56px;
+  margin-bottom: 5px;
 }
+
+.navbar.scrolled .navbar-brand img {
+  width: 50px; /* adjust as needed */
+  height: 50px; /* adjust as needed */
+}
+
+/* Styles for screens larger than 768px */
+@media (min-width: 768px) {
+  nav.navbar.scrolled .button {
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+}
+
 
 nav.navbar a.navbar-brand {
   width: 9%;
@@ -113,6 +130,10 @@ nav.navbar a.navbar-brand {
     border-bottom: 1px solid;
     border-color: rgb(55 65 81);
   }
+  .container-scrolled {
+    background-color: #121212; /* Change this to your desired color */
+  }
+
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -131,48 +152,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover{
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
-}
-
-.social-icon {
-    display: inline-block;
-    margin-left: 14px;
-}
-.social-icon a {
-    width: 42px;
-    height: 42px;
-    background: rgba(217, 217, 217, 0.1);
-    display: inline-flex;
-    border-radius: 50%;
-    margin-right: 6px;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.social-icon a::before {
-    content: "";
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transform: scale(0);
-	transition: 0.3s ease-in-out;
-}
-
-.social-icon a:hover::before {
-    transform: scale(1);
-}
-
-.social-icon a img {
-	width: 40%;
-	z-index: 1;
-	transition: 0.3s ease-in-out;
-}
-
-.social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
 nav.navbar .button {
@@ -385,7 +364,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Work Css ************/
 .vertical-timeline-element-icon{
-  background:#ffffff;
+  background:#2a2a2a;
 }
 
 .timeline-element-left .vertical-timeline-element-date {
@@ -687,6 +666,69 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 .contact form button:hover::before {
   width: 100%;
 }
+
+.modal-dialog {
+  max-width: none !important; 
+  margin-right: 20% !important; 
+  margin-left: 20% !important; 
+}
+
+.custom-modal .modal-content {
+  transform: translateY(20%);
+  width: 100%; 
+  background-color: #2a2a2a;
+  overflow-y: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.modal-body-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-image {
+  width: 50%;
+  height: auto;
+}
+
+.modal-description {
+  margin-left: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.modal-paragraph {
+  margin: 10px 0;
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .modal-body-content {
+    flex-direction: column;
+  }
+
+  .modal-image {
+    width: 100%;
+  }
+
+  .modal-description {
+    margin-left: 0;
+  }
+
+  
+  .modal-dialog {
+    margin-right: 5% !important; 
+    margin-left: 5% !important; 
+  }
+
+  .custom-modal .modal-content {
+    transform: translateY(10%);
+    padding: 10px;
+  }
+}
+
+
 
 /************ Footer Css ************/
 .footer {
