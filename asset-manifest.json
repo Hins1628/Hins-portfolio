@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hins-portfolio/static/css/main.4a877033.css",
-    "main.js": "/Hins-portfolio/static/js/main.c3278ec3.js",
+    "main.js": "/Hins-portfolio/static/js/main.557ce1af.js",
     "static/js/453.e7e9390e.chunk.js": "/Hins-portfolio/static/js/453.e7e9390e.chunk.js",
     "static/media/bannerbg.jpg": "/Hins-portfolio/static/media/bannerbg.ee50e35ef13347bdf6cf.jpg",
     "static/media/portfolio-img1.png": "/Hins-portfolio/static/media/portfolio-img1.77c104fd740f30b9e501.png",
@@ -10,12 +10,14 @@
     "static/media/3D-parkour-game-img2.png": "/Hins-portfolio/static/media/3D-parkour-game-img2.50b8e5e70a2151e6f1a9.png",
     "static/media/3D-parkour-game-img3.png": "/Hins-portfolio/static/media/3D-parkour-game-img3.4cbe883c2d236da97242.png",
     "static/media/web-ar-game-img1.png": "/Hins-portfolio/static/media/web-ar-game-img1.80bca3b6be4f395cdd6b.png",
+    "static/media/virtual-bazaar-img2.png": "/Hins-portfolio/static/media/virtual-bazaar-img2.30cc29a292673b3012c3.png",
     "static/media/command-line-based-jungle-game-img2.png": "/Hins-portfolio/static/media/command-line-based-jungle-game-img2.2827bc97a29cf683004d.png",
     "static/media/command-line-based-jungle-game-img1.png": "/Hins-portfolio/static/media/command-line-based-jungle-game-img1.d3c8a0b9e9a3355bc415.png",
     "static/media/bannar-img.png": "/Hins-portfolio/static/media/bannar-img.a9527f2a47f435214a45.png",
     "static/media/web-ar-game-img2.png": "/Hins-portfolio/static/media/web-ar-game-img2.b2e1985bdee8790c41f2.png",
     "static/media/python.png": "/Hins-portfolio/static/media/python.4f5f52c67194dc46e313.png",
     "static/media/driver-behavior-analysis-img2.png": "/Hins-portfolio/static/media/driver-behavior-analysis-img2.9a3d775701ccfb6d0611.png",
+    "static/media/virtual-bazaar-img1.png": "/Hins-portfolio/static/media/virtual-bazaar-img1.775873c156235c6fcabf.png",
     "static/media/collaborative-project-tracker-img2.png": "/Hins-portfolio/static/media/collaborative-project-tracker-img2.230ab3d22da6b830eb07.png",
     "static/media/icon.png": "/Hins-portfolio/static/media/icon.63a19fb74ed478fe6b3c.png",
     "static/media/driver-behavior-analysis-img3.png": "/Hins-portfolio/static/media/driver-behavior-analysis-img3.d193734eaa0bb7aed7e5.png",
@@ -38,13 +40,13 @@
     "static/media/avatech_logo.png": "/Hins-portfolio/static/media/avatech_logo.582aac2ee9e3b99a1f10.png",
     "static/media/github.png": "/Hins-portfolio/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/Hins-portfolio/index.html",
-    "static/media/threejs.svg": "/Hins-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
+    "static/media/threejs.svg": "/Hins-portfolio/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
     "main.4a877033.css.map": "/Hins-portfolio/static/css/main.4a877033.css.map",
-    "main.c3278ec3.js.map": "/Hins-portfolio/static/js/main.c3278ec3.js.map",
+    "main.557ce1af.js.map": "/Hins-portfolio/static/js/main.557ce1af.js.map",
     "453.e7e9390e.chunk.js.map": "/Hins-portfolio/static/js/453.e7e9390e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a877033.css",
-    "static/js/main.c3278ec3.js"
+    "static/js/main.557ce1af.js"
   ]
 }
