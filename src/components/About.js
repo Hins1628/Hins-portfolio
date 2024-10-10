@@ -84,7 +84,7 @@ export const About = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>About Me</h2>
-                <p>I am a year 4 student studying for a Bachelor of Computing at Hong Kong Polytechnic University, I am gaining practical knowledge and experience in software engineering and website development. My course gave me a solid foundation in programming languages such as..</p>
+                <p>I am a fresh graduate from the Bachelor of Computing at Hong Kong Polytechnic University, I am gaining practical knowledge and experience in software engineering and website development. My previous experience gave me a solid foundation in programming languages such as..</p>
                 <div className='technology-container'>
                   {technologies.map((technology) => (
                     <div className='technology-item' key={technology.name}>

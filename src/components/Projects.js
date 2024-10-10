@@ -1,5 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import virtualbazaarImg1 from "../assets/img/virtual-bazaar-img1.png";
+import virtualbazaarImg2 from "../assets/img/virtual-bazaar-img2.png";
 import portfolioImg1 from "../assets/img/portfolio-img1.png";
 import driverbehaviourImg1 from "../assets/img/driver-behavior-analysis-img1.png";
 import driverbehaviourImg2 from "../assets/img/driver-behavior-analysis-img2.png";
@@ -27,6 +29,17 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   
   const projects = [
+    {
+      title: "Virtual Bazaar",
+      description: [ "Virtual Bazaar is an online marketplace for trading virtual items such as images, game items, accounts, 3D models, and music.",
+      "It featuring user login, product trading, product management, real-time chat, community interaction.",
+      "Utilizes Vite, ReactJS, and Tailwind CSS for the frontend and Node.js, ExpressJS, MongoDB, AWS S3, and WebSocket for the backend.",
+      "Deployed with the frontend on Vercel and the backend on Render"
+       ],
+      sourcecodeUrl: "",
+      relatedskill: ["Vite","#ReactJS", "#Tailwind CSS", "#Node.js","#Express.js", "#MongoDB", "#AWS S3", "#WebSocket", "#Vercel", "#Render"],
+      imgUrl: [virtualbazaarImg1, virtualbazaarImg2],
+    },
     {
       title: "Portfolio Website",
       description: [ "The portfolio website showcases my experience and abilities, enabling companies to gain a comprehensive understanding of my experience and ability.",
@@ -120,7 +133,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects Experience</h2>
-                <p>During my past development career, I have completed several related projects that enhanced my programming skills and cultivated my ability to meet user needs effectively.</p>
+                <p>During my past development career, , I participated in developing multiple projects, it enhanced my programming skills and cultivated my ability to meet user needs effectively.</p>
                 <p>If you are interested in the project, you can click the project card to know more. The GitHub button link to the source code of the project on my GitHub account.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">

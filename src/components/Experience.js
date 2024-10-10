@@ -68,7 +68,7 @@ export const Experience = () => {
       title: "Internship - Software Engineer",
       company_name: "Career Hackers | Speakmanity Limited",
       icon: CareerHackers,
-      date: "June 2024 - Present",
+      date: "June 2024 - Aug 2024",
       points: [
         "Develop a 3D metaverse world using three.js",
         "Contributing to both frontend and backend platform using React, three.js, Node.js, MongoDB.",
