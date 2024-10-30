@@ -2,7 +2,8 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import virtualbazaarImg1 from "../assets/img/virtual-bazaar-img1.png";
 import virtualbazaarImg2 from "../assets/img/virtual-bazaar-img2.png";
-import portfolioImg1 from "../assets/img/portfolio-img1.png";
+import virtualbazaarImg3 from "../assets/img/virtual-bazaar-img3.png";
+import portfolioImg1 from "../assets/img/portfolio-img1.png"
 import driverbehaviourImg1 from "../assets/img/driver-behavior-analysis-img1.png";
 import driverbehaviourImg2 from "../assets/img/driver-behavior-analysis-img2.png";
 import driverbehaviourImg3 from "../assets/img/driver-behavior-analysis-img3.png";
@@ -37,8 +38,9 @@ export const Projects = () => {
       "Deployed with the frontend on Vercel and the backend on Render"
        ],
       sourcecodeUrl: "",
+      linkUrl: "https://virtualbazaar.vercel.app/",
       relatedskill: ["Vite","#ReactJS", "#Tailwind CSS", "#Node.js","#Express.js", "#MongoDB", "#AWS S3", "#WebSocket", "#Vercel", "#Render"],
-      imgUrl: [virtualbazaarImg1, virtualbazaarImg2],
+      imgUrl: [virtualbazaarImg1, virtualbazaarImg2, virtualbazaarImg3],
     },
     {
       title: "Portfolio Website",

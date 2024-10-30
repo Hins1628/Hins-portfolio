@@ -1,8 +1,9 @@
 import { Col, Modal } from "react-bootstrap";
 import githubIcon from '../assets/img/github.png';
+import linkIcon from '../assets/img/link.png'; 
 import React, { useState, useEffect, useRef } from 'react';
 
-export const ProjectCard = ({ title, description, sourcecodeUrl, imgUrl, relatedskill }) => {
+export const ProjectCard = ({ title, description, sourcecodeUrl, imgUrl, relatedskill, linkUrl }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const intervalId = useRef(null);
   const [showModal, setShowModal] = useState(false);
@@ -55,6 +56,11 @@ export const ProjectCard = ({ title, description, sourcecodeUrl, imgUrl, related
                 <img src={githubIcon} alt="Click here" />
               </a>
             ) : null}
+            {linkUrl ? (
+              <a href={linkUrl}>
+                <img src={linkIcon} alt="Click here" />
+              </a>
+            ) : null}
           </div>
         </button>
         <h4 className="title-spacing text-center">{title}</h4>
@@ -88,8 +94,12 @@ export const ProjectCard = ({ title, description, sourcecodeUrl, imgUrl, related
               <img src={githubIcon} alt="Click here" />
             </a>
           ) : null}
+          {linkUrl ? (
+            <a href={linkUrl}>
+              <img src={linkIcon} alt="Click here" />
+            </a>
+          ) : null}
         </div>
-        
       </Modal.Footer>
     </Modal>
     </Col>
