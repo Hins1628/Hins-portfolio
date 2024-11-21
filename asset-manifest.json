@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hins-portfolio/static/css/main.98258f25.css",
-    "main.js": "/Hins-portfolio/static/js/main.af22313b.js",
+    "main.js": "/Hins-portfolio/static/js/main.6ca6c743.js",
     "static/js/453.e7e9390e.chunk.js": "/Hins-portfolio/static/js/453.e7e9390e.chunk.js",
     "static/media/bannerbg.jpg": "/Hins-portfolio/static/media/bannerbg.ee50e35ef13347bdf6cf.jpg",
     "static/media/portfolio-img1.png": "/Hins-portfolio/static/media/portfolio-img1.77c104fd740f30b9e501.png",
@@ -42,13 +42,13 @@
     "static/media/avatech_logo.png": "/Hins-portfolio/static/media/avatech_logo.582aac2ee9e3b99a1f10.png",
     "static/media/github.png": "/Hins-portfolio/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/Hins-portfolio/index.html",
-    "static/media/threejs.svg": "/Hins-portfolio/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
+    "static/media/threejs.svg": "/Hins-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "main.98258f25.css.map": "/Hins-portfolio/static/css/main.98258f25.css.map",
-    "main.af22313b.js.map": "/Hins-portfolio/static/js/main.af22313b.js.map",
+    "main.6ca6c743.js.map": "/Hins-portfolio/static/js/main.6ca6c743.js.map",
     "453.e7e9390e.chunk.js.map": "/Hins-portfolio/static/js/453.e7e9390e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98258f25.css",
-    "static/js/main.af22313b.js"
+    "static/js/main.6ca6c743.js"
   ]
 }
